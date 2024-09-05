@@ -1,6 +1,7 @@
 import Intro from "./Intro"
 import ExpandableBox from "./ExpandableBox"
 import ExpandableBoxWithImage from "./ExpandableBoxWithImage"
+import NavLinks from "./NavLinks"
 
 import Image1 from '../assets/image1.png'
 import Image2 from '../assets/image2.png'
@@ -18,6 +19,7 @@ function Main() {
                 text="Ce tutoriel est conçu exclusivement à des fins éducatives, et il est impératif de ne jamais utiliser un ATTiny85 dans un cadre illégal ou nuisible. L'ATTiny85, bien que petit, peut avoir des applications potentiellement dangereuses s'il tombe entre de mauvaises mains. Il est essentiel de l'employer avec discernement et de toujours vous assurer que son utilisation respecte les principes de sécurité et de responsabilité."
                 quote="La technologie ne peut remplacer la conscience morale."
             />
+            <NavLinks />
             <ExpandableBox 
                 title="Présentation BadUSB"
                 span_color="documentation"
