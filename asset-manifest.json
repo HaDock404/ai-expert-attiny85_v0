@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ai-expert-attiny85_v0/static/css/main.4dda447b.css",
+    "main.js": "/ai-expert-attiny85_v0/static/js/main.093ba4c2.js",
+    "static/js/453.cbee2ebd.chunk.js": "/ai-expert-attiny85_v0/static/js/453.cbee2ebd.chunk.js",
+    "static/media/image1.jpg": "/ai-expert-attiny85_v0/static/media/image1.a49e8605bbe2a9bf0e04.jpg",
+    "index.html": "/ai-expert-attiny85_v0/index.html",
+    "main.4dda447b.css.map": "/ai-expert-attiny85_v0/static/css/main.4dda447b.css.map",
+    "main.093ba4c2.js.map": "/ai-expert-attiny85_v0/static/js/main.093ba4c2.js.map",
+    "453.cbee2ebd.chunk.js.map": "/ai-expert-attiny85_v0/static/js/453.cbee2ebd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4dda447b.css",
+    "static/js/main.093ba4c2.js"
+  ]
+}
