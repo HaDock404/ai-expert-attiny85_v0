@@ -14,6 +14,12 @@ function Main() {
                 text="Ce tutoriel est conçu exclusivement à des fins éducatives, et il est impératif de ne jamais utiliser un ATTiny85 dans un cadre illégal ou nuisible. L'ATTiny85, bien que petit, peut avoir des applications potentiellement dangereuses s'il tombe entre de mauvaises mains. Il est essentiel de l'employer avec discernement et de toujours vous assurer que son utilisation respecte les principes de sécurité et de responsabilité."
                 quote="La technologie ne peut remplacer la conscience morale."
             />
+            <ExpandableBox 
+                title="Présentation BadUSB"
+                span_color="documentation"
+                span_text="Documentation"
+                text="Une BadUSB est un périphérique USB modifié ou programmé pour exécuter des actions malveillantes sur un ordinateur une fois connecté. Elle exploite une vulnérabilité au niveau du firmware des périphériques USB, qui peut être reprogrammé pour se comporter différemment de ce qu'il est censé faire. Contrairement aux clés USB ordinaires, qui stockent et transfèrent des fichiers, une BadUSB se fait passer pour un périphérique de confiance tel qu'un clavier ou une souris, lui permettant ainsi d'exécuter des commandes ou des scripts automatiquement dès qu'elle est branchée sur un ordinateur. Cela peut inclure l'ouverture de ports réseau, le téléchargement de logiciels malveillants, ou même le vol de données sensibles. Ce type d'attaque est particulièrement dangereux car il est presque indétectable par les systèmes de sécurité traditionnels, puisque les périphériques USB sont généralement considérés comme sûrs par les systèmes d'exploitation. De plus, une fois que le firmware d'un périphérique a été modifié, il est très difficile, voire impossible, de revenir à son état d'origine sans outils spécifiques. Les BadUSB sont souvent utilisées par des attaquants ayant un accès physique à un ordinateur, mais elles peuvent également être introduites dans des environnements sécurisés à travers des campagnes de phishing ou en étant laissées dans des lieux publics pour être ramassées et utilisées par des victimes non méfiantes. La meilleure façon de se protéger contre ce type de menace est de restreindre l'accès aux ports USB, d'utiliser des périphériques USB de confiance uniquement, et de désactiver l'autorun pour empêcher l'exécution automatique de programmes dès que l'USB est branchée."
+            />
             <ExpandableBoxWithImage 
                 id="id1"
                 title="Installation de l'IDE Arduino"
@@ -40,41 +46,6 @@ function Main() {
                 text="Dans le menu 'Outils', ouvrez le Gestionnaire de cartes, recherchez Digistump AVR Boards, puis procédez à son installation."
                 image={Image3}
                 text_paragraph=""
-            />
-            <ExpandableBox 
-                title=""
-                span_color="documentation"
-                span_text="Documentation"
-                text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type 
-                specimen book. It has survived not only five centuries, but also the leap into 
-                electronic typesetting, remaining essentially unchanged. It was popularised in the 
-                1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more 
-                recently with desktop publishing software like Aldus PageMaker including versions of 
-                Lorem Ipsum."
-            />
-            <ExpandableBoxWithImage 
-                title="Présentation du projet"
-                span_color="documentation"
-                span_text="Documentation"
-                text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type 
-                specimen book. It has survived not only five centuries, but also the leap into 
-                electronic typesetting, remaining essentially unchanged. It was popularised in the 
-                1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more 
-                recently with desktop publishing software like Aldus PageMaker including versions of 
-                Lorem Ipsum."
-                image={Image1}
-                text_paragraph="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type 
-                specimen book. It has survived not only five centuries, but also the leap into 
-                electronic typesetting, remaining essentially unchanged. It was popularised in the 
-                1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more 
-                recently with desktop publishing software like Aldus PageMaker including versions of 
-                Lorem Ipsum."
             />
         </main>
     )
