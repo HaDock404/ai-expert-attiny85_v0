@@ -7,7 +7,7 @@ function Dashboard() {
   return (
     <>
       <GlobalStyle/>
-      <Header />
+      <Header title="Création d'une BadUSB avec un ATTiny85"/>
       <Main />
       <Footer />
     </>

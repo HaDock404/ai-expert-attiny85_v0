@@ -1,9 +1,9 @@
 import '../styles/header.css'
 
-function Header() {
+function Header(props) {
     return (
         <header id="header">
-            Dashboard du Jeu Snake
+            {props.title}
         </header>
     )
 }

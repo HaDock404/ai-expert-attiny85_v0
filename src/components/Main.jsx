@@ -2,21 +2,47 @@ import Intro from "./Intro"
 import ExpandableBox from "./ExpandableBox"
 import ExpandableBoxWithImage from "./ExpandableBoxWithImage"
 
-import Image1 from '../assets/image1.jpg'
+import Image1 from '../assets/image1.png'
+import Image2 from '../assets/image2.png'
+import Image3 from '../assets/image3.png'
 
 function Main() {
     return (
         <main>
             <Intro 
-                title="Bienvenue dans mon tableau de bord"
-                text="Ce tableau de bord à pour objectif de permettre à un 
-                public non averti de comprendre la méthodologie de récupération de données
-                ainsi que leur traitement afin de comprendre la manière de jouer des testeurs de 
-                notre jeu Snake."
-                quote="Attention, ce serpent n'a pas de freins... Bon courage pour ne pas finir en nœud!"
+                title="Bienvenue dans ce tutoriel"
+                text="Ce tutoriel est conçu exclusivement à des fins éducatives, et il est impératif de ne jamais utiliser un ATTiny85 dans un cadre illégal ou nuisible. L'ATTiny85, bien que petit, peut avoir des applications potentiellement dangereuses s'il tombe entre de mauvaises mains. Il est essentiel de l'employer avec discernement et de toujours vous assurer que son utilisation respecte les principes de sécurité et de responsabilité."
+                quote="La technologie ne peut remplacer la conscience morale."
+            />
+            <ExpandableBoxWithImage 
+                id="id1"
+                title="Installation de l'IDE Arduino"
+                span_color="documentation"
+                span_text="Documentation"
+                text="Ce tutoriel s'adresse principalement aux utilisateurs de macOS. Pour les autres systèmes d'exploitation, les étapes d'installation et de programmation sont similaires et peuvent être facilement trouvées en ligne ou via des outils comme ChatGPT. Pour commencer, rendez-vous sur le site officiel d'Arduino à l'adresse suivante : https://www.arduino.cc/en/software et téléchargez la version adaptée à macOS. Au moment de la rédaction de ce tutoriel, la dernière version disponible est la 2.3.2."
+                image={Image1}
+                text_paragraph="Localisez le fichier d'installation dans votre dossier 'Téléchargements', puis double-cliquez dessus pour lancer l'installation. Suivez ensuite les instructions à l'écran pour terminer l'installation de l'IDE."
+            />
+            <ExpandableBoxWithImage 
+                id="id2"
+                title="Mise à jour des bibliothèques"
+                span_color="documentation"
+                span_text="Documentation"
+                text="Pour utiliser la bibliothèque correspondant à l'ATTiny85, vous devez d'abord mettre à jour les bibliothèques disponibles dans l'IDE Arduino. Pour cela, allez dans 'Préférences' et entrez l'adresse suivante dans le champ prévu à cet effet, comme illustré : https://raw.githubusercontent.com/ArminJo/DigistumpArduino/master/package_digistump_index.json."
+                image={Image2}
+                text_paragraph="Cliquez ensuite sur 'OK' pour confirmer."
+            />
+            <ExpandableBoxWithImage 
+                id="id3"
+                title="Installation de la bibliothèque Digistump AVR Board"
+                span_color="documentation"
+                span_text="Documentation"
+                text="Dans le menu 'Outils', ouvrez le Gestionnaire de cartes, recherchez Digistump AVR Boards, puis procédez à son installation."
+                image={Image3}
+                text_paragraph=""
             />
             <ExpandableBox 
-                title="Présentation du projet"
+                title=""
                 span_color="documentation"
                 span_text="Documentation"
                 text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 

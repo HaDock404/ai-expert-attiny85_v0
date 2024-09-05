@@ -1,7 +1,6 @@
 import '../styles/expandable_box.css'
 
 function ExpandableBox(props) {
-    "rersr"
     return (
         <div id="expandable-box">
             <input type="checkbox" id="toggle"></input>
