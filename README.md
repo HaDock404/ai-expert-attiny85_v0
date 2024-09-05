@@ -1,4 +1,4 @@
-# AI ATTiny85 Expert AI
+# ATTiny85 Expert AI
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
