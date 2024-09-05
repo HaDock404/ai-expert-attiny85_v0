@@ -10,6 +10,8 @@ import Image4 from '../assets/image4.png'
 import Image5 from '../assets/image5.png'
 import Image6 from '../assets/image6.jpg'
 import Image7 from '../assets/image7.png'
+import Image8 from '../assets/image8.png'
+import Image9 from '../assets/image9.png'
 
 function Main() {
     return (
@@ -88,6 +90,24 @@ function Main() {
                 text="Le téléversement du code se fait par le biais de la flèche tourné vers la droite en haut à gauche de votre IDE. Vous avez alors 60secondes pour brancher l'ATTiny85 avec votre machine."
                 image={Image7}
                 text_paragraph="Retirez rapidement votre ATTiny85 à la fin du téléversement, celui ci voudra immédiatement injecter son programme sur votre machine. Il est préférable de le tester sur un page vierge de textEdit ou tout autre outil de traitement de texte."
+            />
+            <ExpandableBoxWithImage 
+                id="id8"
+                title="MAJ ATTiny85"
+                span_color="documentation"
+                span_text="Documentation"
+                text="Il peut être parfois important de mettre à jour l'ATTiny85, pour cela suivez les instructions ci dessous."
+                image={Image8}
+                text_paragraph=""
+            />
+            <ExpandableBoxWithImage 
+                id="id9"
+                title="Remise à zéro"
+                span_color="documentation"
+                span_text="Documentation"
+                text="Pour remettre l'ATTiny85 à zéro, suivez les instructions ci-dessous."
+                image={Image9}
+                text_paragraph=""
             />
         </main>
     )
