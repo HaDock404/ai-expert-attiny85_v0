@@ -2,16 +2,25 @@ import GlobalStyle from '../styles/createGlobalStyle.jsx'
 import Header from "../components/Header";
 import Main from '../components/Main.jsx';
 import Footer from '../components/Footer.jsx';
-import { LanguageProvider } from '../components/LanguageContext';
+
+import React, { useContext } from 'react';
+import { LanguageContext } from '../components/LanguageContext';
 
 function Dashboard() {
+  const { language } = useContext(LanguageContext);
+
+  const title = {
+    en: "Creating a BadUSB with an ATTiny85",
+    fr: "Création d'une BadUSB avec un ATTiny85"
+  };
+
   return (
-    <LanguageProvider>
+    <>
       <GlobalStyle/>
-      <Header title="Création d'une BadUSB avec un ATTiny85"/>
+      <Header title={title[language]}/>
       <Main />
       <Footer />
-    </LanguageProvider>
+    </>
   );
 }
 
