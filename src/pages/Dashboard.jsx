@@ -14,12 +14,17 @@ function Dashboard() {
     fr: "Création d'une BadUSB avec un ATTiny85"
   };
 
+  const footer = {
+    en: "All rights reserved haDock404©",
+    fr: "Tous droits réservés haDock404©"
+  };
+
   return (
     <>
       <GlobalStyle/>
       <Header title={title[language]}/>
       <Main />
-      <Footer />
+      <Footer footer={footer[language]}/>
     </>
   );
 }
