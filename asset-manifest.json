@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ai-expert-attiny85_v0/static/css/main.b47bfbd9.css",
-    "main.js": "/ai-expert-attiny85_v0/static/js/main.9d443826.js",
+    "main.css": "/ai-expert-attiny85_v0/static/css/main.11e5b8d5.css",
+    "main.js": "/ai-expert-attiny85_v0/static/js/main.13d807fb.js",
     "static/js/453.cbee2ebd.chunk.js": "/ai-expert-attiny85_v0/static/js/453.cbee2ebd.chunk.js",
     "static/media/image4.png": "/ai-expert-attiny85_v0/static/media/image4.6a52bbf9ca2a9a01862f.png",
     "static/media/image2.png": "/ai-expert-attiny85_v0/static/media/image2.65885b85fc1790cdc7bd.png",
@@ -14,12 +14,12 @@
     "static/media/image9.png": "/ai-expert-attiny85_v0/static/media/image9.31593b6369cad8744c97.png",
     "static/media/linkedin.jpg": "/ai-expert-attiny85_v0/static/media/linkedin.1affb16d9de05d94b8d3.jpg",
     "index.html": "/ai-expert-attiny85_v0/index.html",
-    "main.b47bfbd9.css.map": "/ai-expert-attiny85_v0/static/css/main.b47bfbd9.css.map",
-    "main.9d443826.js.map": "/ai-expert-attiny85_v0/static/js/main.9d443826.js.map",
+    "main.11e5b8d5.css.map": "/ai-expert-attiny85_v0/static/css/main.11e5b8d5.css.map",
+    "main.13d807fb.js.map": "/ai-expert-attiny85_v0/static/js/main.13d807fb.js.map",
     "453.cbee2ebd.chunk.js.map": "/ai-expert-attiny85_v0/static/js/453.cbee2ebd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b47bfbd9.css",
-    "static/js/main.9d443826.js"
+    "static/css/main.11e5b8d5.css",
+    "static/js/main.13d807fb.js"
   ]
 }
