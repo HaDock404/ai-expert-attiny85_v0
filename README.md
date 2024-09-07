@@ -10,7 +10,7 @@ This project is a hands-on tutorial that walks you through the process of transf
 
 Perfect for cybersecurity enthusiasts, this tutorial provides insights into both hardware and software aspects of BadUSB attacks while emphasizing responsible usage. Whether you're a beginner or an expert, you'll gain practical knowledge to understand the mechanics behind USB-based exploits, with real-world examples to test and refine your skills.  
 
-![Example](./documentation/Image1.png)
+![Example](./documentation/Image2.png)
 
 ## Table of Contents
 
