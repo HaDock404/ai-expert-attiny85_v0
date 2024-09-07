@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ai-expert-attiny85_v0/static/css/main.4dd3a4db.css",
-    "main.js": "/ai-expert-attiny85_v0/static/js/main.b5d500c4.js",
+    "main.js": "/ai-expert-attiny85_v0/static/js/main.1b7b759c.js",
     "static/js/453.cbee2ebd.chunk.js": "/ai-expert-attiny85_v0/static/js/453.cbee2ebd.chunk.js",
     "static/media/image4.png": "/ai-expert-attiny85_v0/static/media/image4.6a52bbf9ca2a9a01862f.png",
     "static/media/image2.png": "/ai-expert-attiny85_v0/static/media/image2.65885b85fc1790cdc7bd.png",
@@ -15,11 +15,11 @@
     "static/media/linkedin.jpg": "/ai-expert-attiny85_v0/static/media/linkedin.1affb16d9de05d94b8d3.jpg",
     "index.html": "/ai-expert-attiny85_v0/index.html",
     "main.4dd3a4db.css.map": "/ai-expert-attiny85_v0/static/css/main.4dd3a4db.css.map",
-    "main.b5d500c4.js.map": "/ai-expert-attiny85_v0/static/js/main.b5d500c4.js.map",
+    "main.1b7b759c.js.map": "/ai-expert-attiny85_v0/static/js/main.1b7b759c.js.map",
     "453.cbee2ebd.chunk.js.map": "/ai-expert-attiny85_v0/static/js/453.cbee2ebd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4dd3a4db.css",
-    "static/js/main.b5d500c4.js"
+    "static/js/main.1b7b759c.js"
   ]
 }
