@@ -15,8 +15,8 @@ function Dashboard() {
   };
 
   const footer = {
-    en: "All rights reserved haDock404©",
-    fr: "Tous droits réservés haDock404©"
+    en: "Make with 🤍 by haDock404©",
+    fr: "Fait avec 🤍 par haDock404©"
   };
 
   return (
