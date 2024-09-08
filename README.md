@@ -15,11 +15,28 @@ Perfect for cybersecurity enthusiasts, this tutorial provides insights into both
 ## Table of Contents
 
 - [Getting Started](#Getting-Started)
-- [Launch Application](#Launch-Application)
+- [Installation](#Installation)
+- [Usage](#Usage)
 - [Contributing](#Contributing)
 - [License](#License)  
 
 ## Getting Started    
+
+This section provides an overview of the prerequisites and instructions to set up your environment to work with the ATTiny85.  
+
+### Prerequisites
+
+To follow this tutorial, you will need:  
+- An ATTiny85 microcontroller
+- A USB programmer (such as a USBasp or similar)
+- Arduino IDE installed on your machine
+- Basic understanding of programming and electronics
+- A reliable text editor
+
+
+## Installation  
+
+To get started, clone the repository and install the necessary dependencies:  
 
 ```bash
 git clone https://github.com/HaDock404/ai-expert-attiny85_v0.git
@@ -27,7 +44,9 @@ cd ai-expert-attiny85_v0
 npm install
 ```  
 
-## Launch Application    
+## Usage  
+
+Once everything is set up, you can launch the application with:  
 
 ```bash
 npm start
